@@ -56,7 +56,7 @@ li{
 }
 
 /* impostazione clearfix */
-.riga ::after{
+.riga::after{
   content: "";
   display: table;
   clear: both;
@@ -72,10 +72,11 @@ li{
 
 .riquadromid{
   width: 45%;
-  margin: 0 2%;
+  margin: 2% 2%;
+  padding: 2% 2%;
   /* debug */
-  height: 400px;
-  background-color: #8f00ff;
+  border-radius: 2%;
+  background-color: white;
 }
 
 .riquadrodes{
@@ -86,10 +87,13 @@ li{
   height: 195px;
   background-color: #c8a2c8;
 }
-
+/* regole riquadromid */
+p{
+  padding-top: 4%;
+}
 /* regole footer */
 footer{
-  clear: both;
+
   height: 100px;
   background-color: #99cbff;
 }
