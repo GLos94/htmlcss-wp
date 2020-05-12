@@ -5,6 +5,9 @@
   box-sizing: border-box;
 }
 
+*{
+  font-family: "Roboto", sans-serif;
+}
 body{
   background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png");
 }
@@ -45,15 +48,22 @@ nav{
   background-color: grey;
 }
 ul{
-  padding: 1% 20%;
-
+  padding: 1% 15%;
 }
+
 li{
   text-align: center;
   display: inline-block;
   color: white;
   font-size: 10px;
+  padding: 0 1%;
+  font-weight: bold;
 }
+
+ul:hover > li{
+  background-color: lightpink;
+}
+
 
 /* impostazione clearfix */
 .riga::after{
@@ -62,38 +72,65 @@ li{
   clear: both;
 }
 
-.riquadrosin, .riquadromid{
+.riquadrosin{
   float: left;
   /* debug */
   width: 23%;
-  height: 300px;
-  background-color: #c8a2c8;
+  margin: 2% 0%;
+  padding: 2% 2%;
+  border-radius: 2%;
+  background-color: white;
+}
+
+.feed{
+  width: 15%;
+}
+
+h4{
+  display: inline-block;
 }
 
 .riquadromid{
-  width: 45%;
+  width: 48%;
   margin: 2% 2%;
   padding: 2% 2%;
+  float: left;
   /* debug */
   border-radius: 2%;
   background-color: white;
 }
 
 .riquadrodes{
-  width: 27%;
+  width: 25%;
   float: right;
-  margin: 1% 0;
+  /* margin: 2% 0%; */
+  /* padding: 2% 2%; */
+  /* border-radius: 2%; */
   /* debug */
-  height: 195px;
-  background-color: #c8a2c8;
+  /* background-color: white */
 }
+
+section{
+  background-color: white;
+  width: 100%;
+  border-radius: 2%;
+  margin:9% 0;
+  padding: 3% 4%;
+}
+
 /* regole riquadromid */
 p{
   padding-top: 4%;
 }
+
 /* regole footer */
 footer{
-
+  text-align: center;
   height: 100px;
-  background-color: #99cbff;
+  background-color: white;
+}
+
+.social{
+  width: 5%;
+  margin: 4% 13%;
 }
