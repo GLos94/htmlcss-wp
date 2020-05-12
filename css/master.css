@@ -1,0 +1,95 @@
+/* regole generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png");
+}
+
+/* regole header e container */
+header{
+  height: 200px;
+  /* margin-bottom: 1%; */
+  background-image: url("../img/bosco.jpg");
+  border: white 5px solid;
+  position: relative
+}
+
+h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+h2{
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+  padding-top: 22%;
+  color: white
+}
+
+#container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* caratteristiche navbar */
+nav{
+  height: 35px;
+  background-color: grey;
+}
+ul{
+  padding: 1% 20%;
+
+}
+li{
+  text-align: center;
+  display: inline-block;
+  color: white;
+  font-size: 10px;
+}
+
+/* impostazione clearfix */
+.riga ::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.riquadrosin, .riquadromid{
+  float: left;
+  /* debug */
+  width: 23%;
+  height: 300px;
+  background-color: #c8a2c8;
+}
+
+.riquadromid{
+  width: 45%;
+  margin: 0 2%;
+  /* debug */
+  height: 400px;
+  background-color: #8f00ff;
+}
+
+.riquadrodes{
+  width: 27%;
+  float: right;
+  margin: 1% 0;
+  /* debug */
+  height: 195px;
+  background-color: #c8a2c8;
+}
+
+/* regole footer */
+footer{
+  clear: both;
+  height: 100px;
+  background-color: #99cbff;
+}
